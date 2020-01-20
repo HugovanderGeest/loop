@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Gerechten</h2>
+
+<p id="Gerechten"></p>
+<p id="Een"></p>
+
+<script>
+var eten = ["Pasta", "Spagetie", "Rookworst", "Stampot", "Soep", "Worst"];
+var text = "";
+var i;
+for (i = 0; i < eten.length; i++) {
+  text += eten[i] + "<br>";
+}
+
+food(4);
+function food(index){
+console.log (eten[index]);}
+document.getElementById("Gerechten").innerHTML = text;
+
+let greeting = helloThere("Hugo van der Geest");
+console.log(greeting);
+
+function helloThere(name) {
+	return "Hallo " + name;
+}
+
+food(1);
+food(2);
+food(3);
+food(4);
+food(5);
+function food(index){
+console.log (eten[index]);}
+
+</script>
+<script>
+
+
+</script>
+
+
+<h2> kijk console </h2>
+<h2> | </h2>
+<h2> | </h2>
+<h2> | </h2>
+<h2> V </h2>
+
+</body>
+</html>
